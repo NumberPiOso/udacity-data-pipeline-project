@@ -1,7 +1,11 @@
-Overview
-========
+# udacity-data-pipeline-project
 
-Welcome to Astronomer! This project was generated after you ran 'astrocloud dev init' using the Astronomer CLI. This readme describes the contents of the project, as well as how to run Apache Airflow on your local machine.
+Final udacity airflow project.
+
+In this project we create an ETL that extract data from s3 bucket, load it
+into AWS redshift and then transform it using SQL scripts. All work is
+orchested using airflow and the infraestructure is managed by terraform.
+
 
 Project Contents
 ================
