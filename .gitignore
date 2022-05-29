@@ -1,5 +1,7 @@
 .git
 .env
 airflow_settings.yaml
-astrocloud
+astrocloudq
 infraestructure/.terraform/
+terraform.tfstate
+terraform.tfstate.backup
